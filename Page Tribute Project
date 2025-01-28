@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <main id="main">
+    <h1 id="title">Hello Kitty</h1>
+    <p>The Kitty Who Stole the Hearts of Millions</p>
+      <figure id="img-div">
+        <img id="image" src="https://static.wikia.nocookie.net/sanrio/images/9/9f/Hello_Kitty.jpg/revision/latest/scale-to-width-down/1200?cb=20191128154539" alt="Hello Kitty seen in pink dress and with pink hairbow standing and waving left paw">
+        <figcaption id="img-caption">Hello Kitty was born in the suburbs of London. She lives with her parents and her twin sister Mimmy who is her best friend.
+        </figcaption>
+     </figure>
+     <section id="tribute-info">
+       <h3 id="headline">How Hello Kitty took the World by storm:</h3>
+       <ul>
+         <li>
+           <strong>1974</strong>
+           - Character created by Ikuko Shimizu, a designer for Sanrio
+         </li>
+         <li>
+           <strong>1975</strong>
+           - Earns name "Haro-Kiti" or "Hello Kitty" in English and dons blue overalls
+         </li>
+         <li>
+           <strong>1978</strong>
+           - Sanrio begins to distribute products across Europe and debuts the first Hello Kitty digital watch two years later with a over a million sold
+         </li>
+         <li>
+           <strong>1992</strong>
+           - Pink is unveiled as the primary color palette for Hello Kitty
+         </li>
+         <li>
+           <strong>1999</strong>
+           - Hello Kitty turns 25 and gets a boyfriend, Dear Daniel. He boasts an impressive white tuft of hair, is also a Brit, and likes to "take photos of animals"
+         </li>
+         <li>
+           <strong>2003</strong>
+           - The Spring/Summer 2003 collection from Heatherette is Hello Kitty's first designer collaboration on the runway
+         </li>
+         <li>
+           <strong>2005</strong>
+           - Kimora Lee Simmons debuts the first high-end Hello Kitty diamond jewelery collection
+         </li>
+         <li>
+           <strong>2010</strong>
+           - Sephora launches original Hello Kitty line with eye shadow palletes, lip gloss, perfume, and more
+         </li>
+         <li>
+           <strong>2013</strong>
+           - Eva Air unveils new 777 Hello Kitty Jet
+         </li>
+         <li>
+           <strong>2014</strong>
+           - Sanrio reveals Hello Kitty is not a cat...she is a little girl
+         </li>
+       </ul>
+       <blockquote cite="https://www.sanrio.com/collections/hello-kitty">
+        <p>"You can never have too many friends!"</p>
+        <cite>--Hello Kitty</cite>
+        <h3>If you would like to know more about Hello Kitty or any of the other Sanrio characters, please visit the <a id="tribute-link" href="https://www.sanrio.com" target="_blank"> Sanrio site.</a></h3>
+     </section>
+  </main>
+</html>
+
+main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f81895;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica-Neue, Arial, sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.5rem; 
+
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+figcaption {
+  margin: 15px 0;
+  text-align: 
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
