@@ -1,0 +1,423 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-cast-api-enabled="true">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="https://images.contentstack.io/v3/assets/blt4454dc0093319d35/blt55247e0014fdfe9f/5f3ec458eb93e224977c1ab8/plants.png" alt="plants.com logo">
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#plant-care">Plant Care</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+        
+      </header>
+      <div class="container"></div>
+      <section id="consumer">
+        <h2>Beautiful, Exotic Plants</h2>
+        <form id="form" action=" https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Enter your email" required>
+          <input id="submit" type="Submit" value="Explore Now" class="btn">
+        </form>
+      </section>
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon">
+              <i class="fa-regular fa-handshake"></i>
+            </div>
+            <div class="desc">
+              <h2>Sustainably Sourced Plants</h2>
+              <p>Our plants are grown in cooperation with small farms that grow specifically to enhance your home.</p>
+            </div>
+          </div>  
+          <div class="grid">
+            <div class="icon">
+              <i class="fa-regular fa-gem"></i>
+            </div>
+            <div class="desc">
+              <h2>Unique Selection</h2>
+              <p>Our greenhouse selection has a number of unique and exotic options for your home that are unavailable anywhere else.</p>
+            </div>
+          </div>  
+          <div class="grid">
+            <div class="icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="desc">
+              <h2>Hands Free Growing</h2>
+              <p>Our plant system allows for simple installation and enjoyment. No need to get your hands dirty-the plants are ready out of the box.</p>
+            </div>
+          </div>  
+        </section>
+        <section id="plant-care">
+          <iframe id="video" width="560" height="315" left="0px" top="-315px" src="https://www.youtube.com/embed/8GzCqUXBnGo" title="How to Take Care of Your Anthurium Plants | Anthurium Care Tips | Ugaoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>  
+        <section id="pricing">
+          <div class="plant-info">
+          <h2>Find Plants You'll Love!</h2>
+          </div>
+          <div class="product" id="house-plant">
+            <div class="level">House Plants</div>
+              <img aria-hidden="true" alt="House Plants" src="https://images.contentstack.io/v3/assets/blt4454dc0093319d35/bltf14f33162510d6ce/62dea3a3ce66ad7665f7fbf0/housePlants.webp" style="transform: scale(1);" class="home">
+              <h3>Starting at $50</h3>
+              <button class="btn">Select</button>
+          </div>
+          <div class="product" id="succulents">
+            <div class="level">Succulents</div>
+              <img aria-hidden="true" alt="Succulents" src="https://images.contentstack.io/v3/assets/blt4454dc0093319d35/bltda2a41a432aa47e2/62dea47f6ab9c47806f8cd46/birthdayPlants.webp" style="transform: scale(1);" class="home">
+              <h3>Starting at $30</h3>
+              <button class="btn">Select</button>
+          </div>
+          <div class="product" id="house-plants">
+            <div class="level">House Plants</div>
+              <img aria-hidden="true" alt="Flowering Plants" src="https://images.contentstack.io/v3/assets/blt4454dc0093319d35/bltda09d164960b0c3e/630541637048695fabde5c72/mobileFloweringPlants.webp" style="transform: scale(1);" class="home">
+              <h3>Starting at $40</h3>
+              <button class="btn">Select</button>
+          </div> 
+        </section>
+        <footer>
+          <span>Copyright 2025, Plants.com</span> 
+        </footer
+      </div>
+    </div>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1rem;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+header {
+color: rgba(0, 0, 0, 0.87);
+background-color: rgb(209, 206, 206);
+font-size: 1rem;
+font-family: Lato,sans-serif;
+font-weight: 400;
+line-height: 1.43;
+display: flex;
+min-height: 75px;
+padding: 0 20px;
+position: fixed;
+top: 0;
+justify-content: space-around;
+align-items: center;
+}
+
+.logo {
+  width: 60vw;
+}
+
+.logo > img {
+  width: 150px;;
+  height: 100%;
+  padding-top: 5px;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+  top: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  padding: .6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  font-weight: 400;
+  background-color: rgb(209, 206, 206);
+}
+
+nav > ul{
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+}
+
+li {
+  list-style: none;
+  display: list-item;
+  text-align: match-parent; 
+
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#consumer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#consumer > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+input {
+  width: 100%;
+  appearance: auto;
+  color: canvastext;
+  background-color: canvas;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-style: inset;
+  border-right-style: inset;
+  border-bottom-style: inset;
+  border-left-style: inset;
+  border-top-color: gray;
+  border-right-color: gray;
+  border-bottom-color: gray;
+  border-left-color: gray;
+}
+
+#consumer input[type=submit] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  border: 5;
+  background-color: #f1c40f;
+}
+
+.plant-info {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-family: BebasNeue;
+  font-weight: normal;
+  line-height: 32px;
+  margin-bottom: 10px;
+  letter-spacing: 1.32px;
+}
+
+#features {
+  margin-top: 20px;
+}
+
+.grid {
+  display: flex;
+}
+
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+
+.fa-regular {
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: Font Awesome 5 Free;
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#plant-care {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#plant-care > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+iframe {
+  border-top-style: inset;
+  border-right-style: inset;
+  border-bottom-style: inset;
+  border-left-style: inset;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home {
+  width: 180px;
+  height: 180px;
+  display: block;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.level {
+  display: flex;
+  justify-content: center;
+}
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+a:any-link {
+  cursor: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+** end of undefined **
+
